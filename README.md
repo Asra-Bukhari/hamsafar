@@ -152,6 +152,9 @@ npm start
 
 ## 👩‍💻 Authors
 
-**Asra Bukhari**
-**Shizza Razzaq**
-**Muhammad Harmain**
+- **Asra Bukhari**
+- **Shizza Razzaq**
+- **Muhammad Harmain**
+
+---
+
