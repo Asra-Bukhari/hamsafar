@@ -1,4 +1,4 @@
-```markdown
+
 # 🚗 HamSafar – Carpool Web Platform
 
 HamSafar is a **full-stack web application** that makes commuting easier, more affordable, and more sustainable by enabling users to **offer rides, join rides, and form regular carpool groups**.
@@ -91,7 +91,6 @@ Initially inspired by the transportation challenges faced by university students
 ---
 
 ## 📂 Project Structure
-```
 
 HamSafar/
 ├── backend/
