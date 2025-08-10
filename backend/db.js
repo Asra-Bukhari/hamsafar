@@ -1,18 +1,17 @@
+require('dotenv').config(); // load env variables
 
 const sql = require("mssql");
 
-
 const config = {
-  user: "sa",
-  password: "12345678",
-  server: "DESKTOP-7939MB0\\SQLEXPRESS",
-  database: "carpoolingManagementSystem",
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  server: process.env.DB_SERVER,
+  database: process.env.DB_DATABASE,
   options: {
-    encrypt: true, 
-    trustServerCertificate: true, 
+    encrypt: process.env.DB_ENCRYPT === 'true', // convert string to boolean
+    trustServerCertificate: process.env.DB_TRUST_CERT === 'true',
   },
 };
-
 
 const poolPromise = new sql.ConnectionPool(config)
   .connect()

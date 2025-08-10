@@ -221,7 +221,7 @@ const HomePage = () => {
         </div>
         <div style={{ marginTop: "20px" }}>
           <h4>Help</h4>
-          <p>Contact support at carpool@app.com</p>
+          <p>Contact support at asrabukhari2003@gmail.com</p>
         </div>
       </div>
 

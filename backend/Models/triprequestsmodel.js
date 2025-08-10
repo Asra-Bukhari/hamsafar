@@ -108,9 +108,9 @@ async function deleteTripRequest(requestID) {
 
   
 module.exports = {
-    getNearbyTrips,
     getalltriprequests,
     addtriprequest,
     deleteTripRequest,
-    updateTripRequest
+    updateScheduledTrip,
 };
+

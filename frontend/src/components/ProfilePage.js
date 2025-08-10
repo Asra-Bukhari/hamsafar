@@ -157,9 +157,7 @@ const MyProfilePage = () => {
             <p><strong style={{ color: accentColor }}>Status:</strong> {user.UserStatus}</p>
             {user.Email && <p><strong style={{ color: accentColor }}>Email:</strong> {user.Email}</p>}
             {user.Contact && <p><strong style={{ color: accentColor }}>Contact:</strong> {user.Contact}</p>}
-            {"isAdmin" in user && (
-              <p><strong style={{ color: accentColor }}>Admin:</strong> {user.isAdmin ? "Yes" : "No"}</p>
-            )}
+           
           </div>
         </div>
       </div>
