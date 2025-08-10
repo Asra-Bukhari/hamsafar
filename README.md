@@ -90,28 +90,28 @@ Initially inspired by the transportation challenges faced by university students
 
 ---
 
-## 📂 Project Structure
-
+📂 Project Structure
 HamSafar/
 ├── backend/
-│ ├── controllers/ # Business logic
-│ ├── models/ # Data models
-│ ├── routes/ # API routes
-│ ├── db.js # DB connection
-│ ├── server.js # Backend entry
-│ └── .env # Environment variables
+│   ├── controllers/       # Business logic
+│   ├── models/            # Data models
+│   ├── routes/            # API routes
+│   ├── db.js              # DB connection
+│   ├── server.js          # Backend entry
+│   └── .env               # Environment variables
 │
 ├── frontend/
-│ ├── public/
-│ │ ├── assets/ # Logos & static assets
-│ │ ├── images/ # App images
-│ ├── src/
-│ │ ├── components/ # Pages & UI components
-│ │ ├── App.js # App shell & routing
-│ │ └── index.js
+│   ├── public/
+│   │   ├── assets/        # Logos & static assets
+│   │   ├── images/        # App images
+│   ├── src/
+│   │   ├── components/    # Pages & UI components
+│   │   ├── App.js         # App shell & routing
+│   │   └── index.js
 │
-├── screenshots/ # App screenshots
+├── screenshots/           # App screenshots
 └── README.md
+
 
 ````
 
@@ -165,7 +165,7 @@ npm start
 
 ---
 
-## 📸 Screenshots
+## 📸 Visuals
 
 | Logo Page                          | signup Page                            | Driver Reg                                    |
 | ---------------------------------- | -------------------------------------- | --------------------------------------------- |
@@ -190,7 +190,7 @@ npm start
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Authors
 
 **Asra Bukhari**
 **Shizza Razzaq**
