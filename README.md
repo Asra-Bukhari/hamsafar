@@ -90,6 +90,8 @@ Initially inspired by the transportation challenges faced by university students
 
 ---
 
+
+```plaintext
 📂 Project Structure
 HamSafar/
 ├── backend/
@@ -111,15 +113,11 @@ HamSafar/
 │
 ├── screenshots/           # App screenshots
 └── README.md
+```
 
-
-````
-
----
 
 ## ⚙️ Environment Variables
 
-In your `.env` file:
 
 ```env
 DB_USER
