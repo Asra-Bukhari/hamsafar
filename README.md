@@ -110,7 +110,7 @@ HamSafar/
 │ │ ├── App.js # App shell & routing
 │ │ └── index.js
 │
-├── screenshots/ # App screenshots (8 images)
+├── screenshots/ # App screenshots
 └── README.md
 
 ````
